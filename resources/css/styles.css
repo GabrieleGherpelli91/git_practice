@@ -1,0 +1,96 @@
+html {
+    font-size: 16px;
+}
+
+.container {
+    height: 60rem;
+    background-image: url(../img/lance-asper-dxJ80oNvnhE-unsplash.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    font-size: 80px;
+    font-family: trebuchet;
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.title h3 {
+    font-size: 26px;
+    position: absolute;
+    top: 8rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main .testarossa {
+    background-color: white;
+    opacity: 0.8;
+    width: 20rem;
+    text-align: center;
+}
+
+.main h3 {
+    color: red;
+    text-shadow: 1px 1px GREY;
+    font-size: 26px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.ul {
+    position: absolute;
+    top: 18rem;
+    width: 45rem;
+    background-color: white;
+    opacity: 0.8;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 60px;
+    text-align: center;
+    text-shadow: 1px 1px GREY;
+    color: red;
+    font-size: 26px;
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35rem;
+}
+
+.sponsors {
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.sponsors h2 {
+    font-size: 30px;
+    color: red;
+    text-shadow: 1px 1px GREY;;
+}
+
+.sponsors li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
